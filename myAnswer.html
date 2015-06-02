@@ -11,6 +11,65 @@ function myFunction() {
 	}
 </script >	
 
+
+<p><input value="" id ="firstNumber"/>
+	
+	<input value="" id = "secondNumber">
+	<input value="" id = "thirdNumber">
+	<span id="result"></span>
+	</p>
+<p><input value="" id ="forthNumber"/>
+	
+	<input value="" id = "fifthNumber">
+	<input value="" id = "sixthNumber">
+	<span id="result"></span>
+	</p>
+<p><input value="" id ="seventhNumber"/>
+	
+	<input value="" id = "eighthNumber">
+	<input value="" id = "ninthNumber">
+	<span id="result"></span>
+	</p>	
+	
+	<p><input type="button" value="Check" onclick="Check()"></p>
+	
+	
+	
+	<script>
+		var firstnumber=document.getElementById("firstNumber").value;
+		var secondnumber=document.getElementById("secondNumber").value;
+		var thirdnumber=document.getElementById("thirdNumber").value;
+		var forthnumber=document.getElementById("forthNumber").value;
+		var fifthnumber=document.getElementById("fifthNumber").value;
+		var sixthnumber=document.getElementById("sixthNumber").value;
+		var seventhnumber=document.getElementById("seventhNumber").value;
+		var eighthnumber=document.getElementById("eighthNumber").value;
+		var ninthnumber=document.getElementById("ninthNumber").value;
+		var result=eval(firstnumber+"+"+secondnumber+thirdnumber+fifthnumber+sixthnumber+seventhnumber+eighthnumber+ninthnumber);
+		alert(result);
+		document.getElementById("result").innerHTML=result;
+		
+		
+		
+		function plus(){
+		var firstnumber=document.getElementById("firstNumber").value;
+		var secondnumber=document.getElementById("secondNumber").value;
+		var thirdnumber=document.getElementById("thirdNumber").value;
+		var forthnumber=document.getElementById("forthNumber").value;
+		var fifthnumber=document.getElementById("fifthNumber").value;
+		var sixthnumber=document.getElementById("sixthNumber").value;
+		var seventhnumber=document.getElementById("seventhNumber").value;
+		var eighthnumber=document.getElementById("eighthNumber").value;
+		var ninthnumber=document.getElementById("ninthNumber").value;
+		var result=eval(firstnumber+"+"+secondnumber+thirdnumber+fifthnumber+sixthnumber+seventhnumber+eighthnumber+ninthnumber);
+		alert(result);
+		document.getElementById("result").innerHTML=result;
+		
+		}
+		
+		
+	</script>
+
 <p>
 <a href="https://github.com/anrizhi/infosys280-Assignment2.git">Github Repository</a>
 
